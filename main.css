@@ -112,7 +112,7 @@ nav a:hover {
 }
 
 a:is(:link, :active, :visited).active {
-  color: #9370db;
+  border-bottom: 2px solid #9370db;
 }
 
 nav .myself-link {
@@ -279,6 +279,11 @@ footer {
     position: fixed;
     top: 0;
     width: 360px;
+  }
+  
+  a:is(:link, :active, :visited).active {
+  color: #9370db;
+  border-bottom: none;
   }
   
   .open-sidebar-button,
